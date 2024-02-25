@@ -1,0 +1,11 @@
+* {
+    cursor: url('../assets/cursors/arrow.cur'), auto;
+}
+
+button, a {
+    cursor: url('../assets/cursors/link.cur'), auto;
+}
+
+input, textarea {
+    cursor: url('../assets/cursors/beam.cur'), auto;
+}

@@ -1,0 +1,101 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: #2de2e6;
+}
+
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    margin: 0;
+
+    background-image: linear-gradient(to top, #ff0000, #c20023, #820327, #420f1d, #000000);
+}
+
+.glass {
+    width: 400px;
+    height: 500px;
+
+    background: rgba(45, 226, 230, 0.24);
+    backdrop-filter: blur(0px);
+    border: solid 1px #2de2e6;
+    box-shadow: 0px 0px 78px 0px rgba(45, 226, 230, 0.9)
+}
+
+#mf-1 {
+    right: 15px;
+    top: 15px;
+}
+
+.mono {
+    position: absolute;
+    bottom: 15px;
+
+    font-size: 16px;
+}
+
+#date_orn {
+    left: 15px;
+}
+
+
+#time_orn {
+    right: 15px;
+}
+
+#buttons {
+    margin: 15px 0 0 15px;
+}
+
+#input_field {
+    margin: 15px 15px 0 15px;
+    font-size: 16px;
+}
+
+.score_in {
+    background: rgba(45, 226, 230, 0.01);
+    backdrop-filter: blur(0px);
+    border: solid 1px #2de2e6;
+
+    width: 200px;
+    
+    padding: 10px;
+    margin: 10px 0 0 0;
+
+    outline: none;
+
+    transition-property: background, backdrop-filter, border, color;
+    transition-duration: 1s; 
+    transition-timing-function: ease; 
+}
+
+#foot {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+#foot img {
+    width: 100px;
+    height: 100px;
+}
+
+#title {
+    margin: 15px 15px 0 15px;
+}
+
+#title h1 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#title h1, p {
+    margin: 0;
+}
+
+#result {
+    margin: 15px 15px 0 15px;
+}

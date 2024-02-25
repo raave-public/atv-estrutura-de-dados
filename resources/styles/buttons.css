@@ -1,0 +1,62 @@
+.btn {
+    background: rgba(45, 226, 230, 0.01);
+    backdrop-filter: blur(0px);
+    border: solid 1px #2de2e6;
+}
+
+
+#btn-h:hover {
+    background: rgba(251, 15, 15, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #fb0f0f;
+    color: white;
+}
+
+#btn-1:hover {
+    background: rgba(251, 131, 15, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #fb830f;
+    color: white;
+}
+
+#btn-2:hover {
+    background: rgba(251, 247, 15, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #fbeb0f;
+    color: white;
+}
+
+#btn-3:hover {
+    background: rgba(43, 251, 15, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #3efb0f;
+    color: white;
+}
+
+#btn-4:hover {
+    background: rgba(15, 235, 251, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #0febfb;
+    color: white;
+}
+
+#btn-5:hover {
+    background: rgba(15, 31, 251, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #2736ff;
+    color: white;
+}
+
+#btn-6:hover {
+    background: rgba(157, 15, 251, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #9d0ffb;
+    color: white;
+}
+
+#btn-p:hover {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(0px);
+    border: solid 1px #ffffff;
+    color: white;
+}
