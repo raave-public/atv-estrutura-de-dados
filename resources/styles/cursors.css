@@ -2,7 +2,7 @@
     cursor: url('../assets/cursors/arrow.cur'), auto;
 }
 
-button, a {
+button, a, img {
     cursor: url('../assets/cursors/link.cur'), auto;
 }
 
