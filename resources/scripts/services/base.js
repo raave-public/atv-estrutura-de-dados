@@ -18,22 +18,4 @@ function hide_title(){
     title.classList.add('hide');
 }
 
-function hide_input_field(){
-    field.classList.add('hide')
-}
-
-function hide_result(){
-    if(result.classList.contains('hide')){
-        result.classList.remove('hide');
-    } else {
-        result.classList.add('hide')
-    }
-}
-
-function check_fields(){
-    if(title.classList.contains('hide')){
-        title.classList.remove('hide')
-    }
-}
-
-export { say, validate_input, hide_title, hide_input_field, hide_result, check_fields }
+export { say, validate_input, hide_title }

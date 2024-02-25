@@ -1,5 +1,5 @@
 //importação de funções:
-import { say, validate_input, hide_title, hide_input_field, hide_result, check_fields } from "./services/base.js";
+import { say, validate_input, hide_title } from "./services/base.js";
 
 //importação de variaveis:
 import { audio, buttons, glass, poesy, result_field } from "./services/variables.js"
@@ -13,7 +13,9 @@ let typed = 1;
 
 buttons.btn_h.addEventListener('click',()=>{
     result_field.innerHTML = "";
+    hide_title();
     act_h.render()
+
     setTimeout(() => {
         glass.classList.add('glass_glitch');
     }, 6000);
@@ -23,8 +25,6 @@ buttons.btn_h.addEventListener('click',()=>{
             setTimeout(() => {
                 location.reload();
             }, 15000);
-        
-        
 })
 
 buttons.btn_1.addEventListener('click',()=>{

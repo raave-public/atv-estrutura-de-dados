@@ -1,8 +1,8 @@
 .glass_glitch {
-    background: rgb(0, 17, 255);
+    background: rgba(255, 0, 0, 0.5);
     backdrop-filter: blur(8px);
-    border: solid 1px #ffffff;
-    box-shadow: 0px 0px 78px 0px rgb(238, 255, 0)
+    border: solid 1px #ff0000;
+    box-shadow: 0px 0px 78px 0px rgb(255, 0, 0)
 }
 
 .glicthed {
@@ -11,7 +11,8 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.2) 0%, rgba(255, 0, 0) 100%);
+  box-shadow: 0px 0px 78px 30px rgb(255, 0, 0);
   animation: glitch 0.3s infinite;
 }
 
