@@ -43,7 +43,7 @@ buttons.btn_1.addEventListener('click',()=>{
             let input_value = event.target.value;
 
             if(key==='Enter'){
-                if(input_value>10){
+                if(input_value>10||input_value<0){
                     result.render(act_1.invalid);
                     data_input.value = '';
                     return;
@@ -161,7 +161,7 @@ buttons.btn_5.addEventListener('click',()=>{
     act_5.render();
 
     const data_input = document.getElementById('act_input');
-    const container = document.getElementsByClassName('to_hide')[0]
+    const container = document.getElementById('input_field');
 
     data_input.addEventListener('keypress',validate_input);
 
@@ -172,12 +172,12 @@ buttons.btn_5.addEventListener('click',()=>{
             const number = event.target.value;
             
             if(number>0){
-                result.render(`${number} IS POSITIVE.`)
+                result.render(`${number} IS POSITIVE.`);
             } else if (number<0){
-                result.render(`${number} IS NEGATIVE.`)
+                result.render(`${number} IS NEGATIVE.`);
             } else {
-                container.classList.add('hide');
-                result.render(poesy)
+                container.innerHTML = "";
+                result.render(poesy);
             }
         }
     });
