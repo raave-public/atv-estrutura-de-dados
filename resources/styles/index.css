@@ -96,6 +96,10 @@ body {
     margin: 0;
 }
 
+#synth {
+    color: #fb830f;
+}
+
 #result {
     margin: 15px 15px 0 15px;
 }
