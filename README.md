@@ -2,7 +2,7 @@
 
 Este projeto consiste na criação de uma página web como resposta à segunda atividade da disciplina de Estrutura de Dados I do curso de Bacharelado em Sistemas de Informação da Universidade Federal Rural da Amazônia (UFRA).
 
-A página foi desenvolvida utilizando tecnologias web fundamentais, incluindo HTML, CSS e JavaScript em suas formas puras. Não foram utilizadas bibliotecas de responsividade, e recursos para adaptabilidade em dispositivos móveis não foram implementados. Portanto, a responsividade é um aspecto a ser melhorado no projeto.
+A página foi desenvolvida utilizando tecnologias web fundamentais, incluindo HTML, CSS e JavaScript em suas formas puras. Não foram utilizadas bibliotecas de responsividade, e recursos para adaptabilidade em dispositivos móveis não foram implementados. *Portanto, a responsividade é um aspecto a ser implementado na página.*
 
 A estética da página foi inspirada nas tendências do Retrofuturismo e Synthwave, proporcionando uma experiência visual única e envolvente.
 
