@@ -1,4 +1,4 @@
-##Projeto de Estrutura de Dados I - UFRA
+## Projeto de Estrutura de Dados I - UFRA
 
 Este projeto consiste na criação de uma página web como resposta à segunda atividade da disciplina de Estrutura de Dados I do curso de Bacharelado em Sistemas de Informação da Universidade Federal Rural da Amazônia (UFRA).
 
