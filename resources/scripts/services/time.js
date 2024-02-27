@@ -19,6 +19,7 @@ setInterval(() => {
     // Converte para o formato de 12 horas
     hours = hours % 12 || 12;
 
+    hours = add_zero(hours);
     minutes = add_zero(minutes);
     seconds = add_zero(seconds);
 
